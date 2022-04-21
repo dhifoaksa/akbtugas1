@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tugas1 10119289</string>
+    <string name="login_area">Login Area</string>
+    <string name="dark_app">10119289</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="belum_punya_akun">Belum Punya Akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="daftar_akun">Daftar Akun</string>
+    <string name="nama">Nama</string>
+    <string name="sudah_punya_akun">Sudah Punya akun ?</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="Home">Home</string>
+    <string name="selamat_datang_di_menu_utama">Selamat datang di Menu Utama</string>
+    <string name="nama_dhifo_aksa_hermawan">Nama : Dhifo Aksa Hermawan</string>
+    <string name="nim_10119289">Nim : 10119289</string>
+    <string name="kelas_if_7">Kelas : IF-7</string>
+    <string name="halaman_profile">Halaman Profile</string>
+</resources>

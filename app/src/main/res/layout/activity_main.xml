@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--21 April 2022 | 10119289 | Dhifo Aksa Hermawan |IF7-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:id="@+id/txt_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:layout_centerHorizontal="true"
+    android:textSize="25dp"
+    android:textColor="#2196F3"
+    android:text="@string/selamat_datang_di_menu_utama"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_dhifo_aksa_hermawan"
+        android:textColor="#8BC34A"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txt_menu"/>
+
+
+    <TextView
+        android:id="@+id/txt_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nim_10119289"
+        android:textColor="#8BC34A"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txt_name"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kelas_if_7"
+        android:textColor="#8BC34A"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txt_nim"/>
+
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/btnToggleGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        app:checkedButton="@id/home"
+        app:singleSelection="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/home"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Home"
+            app:icon="@drawable/ic_baseline_home_24" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/profile"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            app:icon="@drawable/ic_baseline_person_24" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logout"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            app:icon="@drawable/ic_baseline_exit_to_app_24" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+</RelativeLayout>
